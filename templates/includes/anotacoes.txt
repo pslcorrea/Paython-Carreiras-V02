@@ -1,0 +1,7 @@
+Fazer uma lista com dados do banco, separar item a cada ponto
+<ul>
+  {% for linha in vaga.responsabilidades.split(".") %}
+    <li>{{ linha }}</li>
+  {% endfor %}
+</ul>
+    
